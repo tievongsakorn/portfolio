@@ -13,7 +13,14 @@ const mix = require('laravel-mix');
 
 // mix.js('resources/js/app.js', 'public/js');
 // mix.js('resources/js/main.js', 'public/js');
-mix.sass('resources/scss/style.scss', 'public/css');
-    mix.browserSync({
-        proxy: 'http://vk-site.dev/'
-    });
+// mix.sass('resources/scss/bootstrap5/bootstrap.scss', 'public/css');
+mix.sass('resources/scss/style.scss', 'public/css')
+.sass('resources/scss/bootstrap5/bootstrap.scss', 'public/css/min.bootstrap.css')
+   .options({
+     processCssUrls: false, // Prevent processing of URLs in CSS
+     postCss: [
+       require('postcss-csso') // Minify CSS
+     ]
+}).browserSync({
+    proxy: 'http://vk-site.dev/'
+}).disableSuccessNotifications();

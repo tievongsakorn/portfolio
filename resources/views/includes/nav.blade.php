@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+{{-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">
         Vongsakorm Ketsuriyong
@@ -23,4 +23,21 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> --}}
+  <header>
+    <div class="d-flex align-items-center">
+      <div class="logo me-3"></div>
+      <div class="name-title d-flex align-items-center">
+          <h1 class="me-3 h3">Vongsakorn  Ketsuriyong</h1>
+          <p class="mt-auto">Web Developer</p>
+      </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Resume</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>

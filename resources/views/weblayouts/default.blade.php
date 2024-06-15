@@ -7,13 +7,11 @@
 </head>
 <body>
     @include('includes.nav')
-    <div class="container-main-body">
+    {{-- <div class="container-main-body"> --}}
         @yield('content')
-    </div>
+    {{-- </div> --}}
 
-    <footer>
-        @include('includes.footer')
-    </footer>
+    @include('includes.footer')
 </body>
 
  
