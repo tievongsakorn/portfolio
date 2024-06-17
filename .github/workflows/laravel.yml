@@ -19,7 +19,7 @@ jobs:
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     - name: decrypt env
-      run: php artisan env:decrypt --key=R5cLg4eGbLCYeNeR8ThZDaEK3uLxitZx/UgvicyA9Co= --cipher=AES-256-CBC
+      run: php artisan env:decrypt --key=R5cLg4eGbLCYeNeR8ThZDaEK3uLxitZx/UgvicyA9Co= --cipher=aes-256-cbc
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
     - name: Create Database
