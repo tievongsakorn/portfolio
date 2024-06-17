@@ -19,8 +19,8 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: 20
-    - run: npm ci
-    - run: npm test
+    - run: npm ci --force
+    - run: npm test --force
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
     - name: Install Dependencies
