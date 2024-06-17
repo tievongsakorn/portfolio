@@ -17,6 +17,8 @@
 //     // background-color:  rgb(7, 8, 12) !important;
 //     box-shadow: rgba(94, 118, 133, 0.349) 0px 2px 18px 0px;
 // }
+    
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 main .container {
     max-width: 800px !important; 
@@ -25,6 +27,33 @@ main .container {
 
     // max-width: calc((100% - 953px) * 0.5);
 }
+
+
+
+.honk_color_font {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+}
+
+.honk_color_font-2 {
+    @extend .honk_color_font;
+    font-size: 2rem;
+}
+.honk_color_font-3 {
+    @extend .honk_color_font;
+    font-size: 3rem;
+}
+.honk_color_font-4{
+    @extend .honk_color_font;
+    font-size: 4rem;
+}
+
+
 
 .container-main-body {
     // background-color: $main-theme-color;

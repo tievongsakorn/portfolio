@@ -21,7 +21,7 @@
             </div>
             <div class="col-6">
                 <div class="intro">
-                    <h2>Hello</h2>
+                    <h1 class="honk_color_font-4">Hello</h1>
                     <h6 class="main_subtitle border-bottom pb-1">My name is Vongsakorn Ketsuriyong</h6>
                     <p>	
                         &nbsp; "I'm a normal programmer who likes to try out 
@@ -35,13 +35,19 @@
                 </div>
             </div>
             <div class="col-12 mt-4 main_work_exp ">
-                <h2 class="mb-2">
-                <u>
-                    Work Experience    
-                </u></h2>
+                <h2 class="mb-2"><u>Work Experience</u></h2>
                 <ul>
                     <li>
-                      <h5>Mono Cyber | May 2022 - Jan 2024</h5>
+                        <h4>Easy Hub | Mar 2024 - May 2024</h4>
+                        <ul>
+                          <li><strong>Development Programmer</strong></li>
+                          <li>Developed and updated existing E-commerce websites Commerzy.com.</li>
+                          <li>Added new payment methods using third-party APIs, e.g. Global prime pay, Xendit.</li>
+                          <li>Added a Promptpay QR code generator that has a dynamic amount value based on the invoice price (using the "php-promptpay-qr" PHP library).</li>
+                        </ul>
+                      </li>
+                    <li>
+                      <h4>Mono Cyber | May 2022 - Jan 2024</h4>
                       <ul>
                         <li class="worl_epx_position"><strong>Programmer Developer</strong></li>
                         <li>Developed and updated existing websites such as Mthai.com, Mono29.com, and horoscope.mthai.com.</li>
@@ -57,7 +63,7 @@
                     </li>
                   
                     <li>
-                      <h5>ATMTH | April 2021 - April 2022</h5>
+                      <h4>ATMTH | April 2021 - April 2022</h4>
                       <ul>
                         <li><strong>Web Developer</strong></li>
                         <li>Developed a website to play online games using the Laravel framework and PHP.</li>
@@ -67,7 +73,7 @@
                     </li>
                   
                     <li>
-                      <h5>Mono Infosystem | Nov. 2020 - Mar. 2021</h5>
+                      <h4>Mono Infosystem | Nov. 2020 - Mar. 2021</h4>
                       <ul>
                         <li><strong>Web Developer (Trainee)</strong></li>
                         <li>Learned and developed websites using the Laravel framework.</li>
@@ -75,9 +81,62 @@
                       </ul>
                     </li>
                   </ul>
-                
-
-
+            </div>
+            <div class="col-12 mt-4 main_work_exp ">
+                <h2 class="mb-2"><u>Projects</u></h2>
+                <ul>
+                    <li>
+                      <h4>Mono Cyber</h4>
+                      <ul>
+                        <li>Developed the Murico shirt register website using PHP.</li>
+                        <li>
+                          PT x Maxmu APIs project: Developed an API to provide information about astrology in PHP language.
+                          <ul>
+                            <li>Created a back-office for the team to input data.</li>
+                            <li>Stored and retrieved data from the WordPress database on the Mthai Horoscope website.</li>
+                          </ul>
+                        </li>
+                        <li>Updated some ads on Mono29, Mthai, Horoscope, Campus Star, and Gossipstar.</li>
+                        <li>
+                          Mono29.com new theme project: Created a mock-up version of the new dark theme for Mono29.com using HTML, CSS, and JS.
+                        </li>
+                        <li>
+                          Project New Mthai application: Created an API to feed data into the new Mthai application, similar to the PT x Maxmu APIs project.
+                        </li>
+                      </ul>
+                    </li>
+                  
+                    <li>
+                      <h4>ATMTH</h4>
+                      <ul>
+                        <li>Created landing pages for the websites using basic HTML, JS (Jquery), and CSS (SCSS).</li>
+                        <li>
+                          Project Lxe7s.com: Developed an online gaming website with a user management system and integrated with game provider APIs using the Laravel PHP Framework.
+                          <ul>
+                            <li>Designed the landing page.</li>
+                            <li>Created a user management system and user credits management.</li>
+                            <li>Designed database relationships.</li>
+                            <li>Integrated APIs with game providers for adding or reducing user credits, creating tokens for users to play games, and more.</li>
+                            <li>Prepared the server environment to support the website using LAMP.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  
+                    <li>
+                      <h4>Mono Infosystem (Trainee)</h4>
+                      <ul>
+                        <li>Created a Mock-up Oke front-end webpage.</li>
+                      </ul>
+                    </li>
+                  
+                    <li>
+                      <h4>University Project</h4>
+                      <ul>
+                        <li>Developed a web application that recommends travel routes in the theme of 5 Maharaj Tak.</li>
+                      </ul>
+                    </li>
+                  </ul>
             </div>
             <div class="col-12">
                 <div class="buttons">
