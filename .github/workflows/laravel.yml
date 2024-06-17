@@ -32,6 +32,7 @@ jobs:
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
-      run: php artisan test
-      run: php artisan down --secret
-      run: php artisan build
+      run: |
+        php artisan test 
+        php artisan down --secret
+        php artisan build
