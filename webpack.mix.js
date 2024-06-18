@@ -22,6 +22,6 @@ mix.options({
        require('postcss-csso') // Minify CSS
      ]
 }).browserSync({
-    proxy: 'http://vk-site.dev/'
+    proxy: 'vk-site.local'
 });
 mix.disableSuccessNotifications();

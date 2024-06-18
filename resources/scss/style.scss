@@ -78,14 +78,16 @@ body,html {
 }
 
 header {
+    nav {
+        box-shadow: rgba(95, 119, 134, 0.25) 0px 2px 18px 0px;
+        padding-bottom: 1rem !important;
+    }
+    padding-bottom: 30px;
+}
+
+.navbar-brand {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    box-shadow: rgba(95, 119, 134, 0.25) 0px 2px 18px 0px;
 }
 
 .logo {
@@ -99,21 +101,6 @@ header {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
 
 main {
     display: flex;
@@ -186,7 +173,25 @@ footer p {
     margin: 0;
 }
 
-.main_work_exp {
+.nav-item.active {
+    .nav-link {
+        border-bottom: 1px solid black;
+    }
+}
+.nav-link:hover{
+    scale: 1.01;
+    text-shadow: rgba(95, 119, 134, 0.25) 0px 3px 18px 0px;
+    transition: 50ms;
+}
+// .main_work_exp {
+//     padding-left: 1.25rem;
+//     padding-right: 1.25rem;
+//     padding-top: 1.5rem;
+//     padding-bottom: 2rem;
+//     box-shadow: rgba(95, 119, 134, 0.25) 0px 2px 18px 0px;
+//     border-radius: 15px;
+// }
+.main_card_box {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     padding-top: 1.5rem;

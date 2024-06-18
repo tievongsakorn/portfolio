@@ -34,7 +34,7 @@
                         </p>
                 </div>
             </div>
-            <div class="col-12 mt-4 main_work_exp ">
+            <div class="col-12 mt-4 main_card_box">
                 <h2 class="mb-2"><u>Work Experience</u></h2>
                 <ul>
                     <li>
@@ -82,7 +82,7 @@
                     </li>
                   </ul>
             </div>
-            <div class="col-12 mt-4 main_work_exp ">
+            <div class="col-12 mt-4 main_card_box">
                 <h2 class="mb-2"><u>Projects</u></h2>
                 <ul>
                     <li>
@@ -138,13 +138,13 @@
                     </li>
                   </ul>
             </div>
-            <div class="col-12">
+            {{-- <div class="col-12">
                 <div class="buttons">
                     <a href="#" class="button resume">Resume</a>
                     <a href="#" class="button projects">Projects</a>
                     <a href="#" class="button contact">Contact</a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </main>

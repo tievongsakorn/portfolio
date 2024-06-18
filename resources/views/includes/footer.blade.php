@@ -14,6 +14,7 @@
             </div>
         </div>
     </div>
+    [![Laravel Forge Site Deployment Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2F5401e224-2399-469d-89a1-7b0951bc2ce8&style=for-the-badge)](https://forge.laravel.com/servers/799440/sites/2384849)
 </footer>
 
 {{-- <script src="{{ asset('js/bootstrap5.js') }}"></script> --}}

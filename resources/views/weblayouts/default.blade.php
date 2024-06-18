@@ -6,7 +6,7 @@
     
 </head>
 <body>
-    @include('includes.nav')
+    @include('includes.header')
     {{-- <div class="container-main-body"> --}}
         @yield('content')
     {{-- </div> --}}
