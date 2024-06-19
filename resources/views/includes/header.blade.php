@@ -12,16 +12,16 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item mx-3 @yield('home-active')">
-                <a class="nav-link fs-5 pb-0" href="#home">Home</a>
+                <a class="nav-link fs-5 pb-0" href="{{ url('/') }}">Home</a>
               </li>
-              <li class="nav-item mx-3 @yield('work-active')">
-                <a class="nav-link fs-5 pb-0" href="#work">Work</a>
-              </li>
+              {{-- <li class="nav-item mx-3 @yield('work-active')">
+                <a class="nav-link fs-5 pb-0" href="{{ url('/#experience') }}">Experience</a>
+              </li> --}}
               <li class="nav-item mx-3 @yield('projects-active')">
-                <a class="nav-link fs-5 pb-0" href="#project">Projects</a>
+                <a class="nav-link fs-5 pb-0" href="{{ url('/my-projects') }}">My Projects</a>
               </li>
               <li class="nav-item mx-3 @yield('contact-active')">
-                <a class="nav-link fs-5 pb-0" href="#contact">Contact</a>
+                <a class="nav-link fs-5 pb-0" href="{{ url('/contact') }}">Contact</a>
               </li>
             </ul>
           </div>

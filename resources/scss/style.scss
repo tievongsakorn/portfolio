@@ -61,6 +61,16 @@ main .container {
     max-width: 500px;
     min-height: 100vh;
 }
+.container-fluid-body {
+    // background-color: $main-theme-color;
+    // color: white;
+    min-width: 100%;
+    min-height: 100vh;
+    iframe {
+        min-height: max-content;
+        width: 100%;
+    }
+}
 
 body,html {
     // font-family: Arial, sans-serif;

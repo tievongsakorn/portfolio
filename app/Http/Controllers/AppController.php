@@ -12,7 +12,7 @@ class AppController extends Controller
         return view('pages.home');
     }
 
-    public function projects()
+    public function myProjects()
     {
         return view('pages.projects');
     }
@@ -20,7 +20,10 @@ class AppController extends Controller
 
     public function about()
     {
-        return view('pages.about');
+        // return dd('projects');
+        return view('pages.projects');
+
+        // return view('pages.about');
     }
 
     public function contact()
