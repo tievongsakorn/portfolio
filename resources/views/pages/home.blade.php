@@ -20,9 +20,9 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="intro">
-                    <h1 class="honk_color_font-4">Hello</h1>
-                    <h6 class="main_subtitle border-bottom pb-1">My name is Vongsakorn Ketsuriyong</h6>
+              <h1 class="honk_color_font-4">Hello</h1>
+              <h5 class="main_subtitle border-bottom mb-3">My name is Vongsakorn Ketsuriyong</h5>
+                <div class="intro main_card_box">
                     <p>	
                         &nbsp; "I'm a normal programmer who likes to try out 
                         new things, whether it be tools, techniques, or 
@@ -34,9 +34,117 @@
                         </p>
                 </div>
             </div>
+            {{-- <div class="col-12 mt-4">
+            </div> --}}
             <div class="col-12 mt-4 main_card_box">
-                <h2 class="mb-2"><u>Work Experience</u></h2>
-                <ul>
+              <h2 class="nabla_color_font">TECHNICAL SKILL</h2>
+              <hr>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5 class="honk_color_font">
+                    PROGRAMMING LANGUAGE
+                  </h5>
+                  <p>
+                    <ul class="skill_icon_box d-flex flex-column">
+                      <li>
+                        <div class="skill_icon_card me-2">
+                          HTML <i class="fa-brands fa-html5"></i>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skill_icon_card me-2">
+                          PHP <i class="fa-brands fa-php"></i>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skill_icon_card me-2">
+                          SQL <i class="fa-solid fa-database"></i>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skill_icon_card me-2">
+                          Javascript <i class="fa-brands fa-js"></i>
+                        </div>
+                      </li>
+                      
+                      <li>
+                        <div class="skill_icon_card me-2">
+                          Jquery
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skill_icon_card me-2">
+                          CSS <i class="fa-brands fa-css3"></i>
+      
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skill_icon_card me-2">
+                          SASS <i class="fa-brands fa-sass"></i>
+      
+                        </div>
+                      </li>
+                      
+                    </ul>
+                  </p>
+                  
+                  
+                </div>
+                
+                <div class="col-12 col-md-4">
+                  <h5 class="honk_color_font">
+                    FRAMEWORK
+                  </h5>
+                  <p>
+                    <ul>
+                      <li>
+                        laravel
+                      </li>
+                      <li>
+                        vue.sj
+                      </li>
+                      <li>
+                        Bootstrap
+                      </li>
+                      <li>
+                        Wordpress
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="col-12 col-md-4">
+                  <h5 class="honk_color_font">
+                    OTHER
+                  </h5>
+                  <p>
+                    <ul>
+                      <li>
+                        RESTful API
+                      </li>
+                      <li>
+                        Line message API
+    
+                      </li>
+                      <li>
+                        Jockergame API
+                      </li>
+                      <li>
+                        Google Sheets App Script Api
+                      </li>
+                    </ul>
+                    
+                  </p>
+
+                </div>
+              </div>
+
+            </div>
+            {{-- <div class="col-12 mt-4">
+            </div> --}}
+            <div class="col-12 mt-4 main_card_box">
+              <h2 class="nabla_color_font">Work Experience</h2>
+              <hr>
+              <ul>
                     <li>
                         <h4>Easy Hub | Mar 2024 - May 2024</h4>
                         <ul>

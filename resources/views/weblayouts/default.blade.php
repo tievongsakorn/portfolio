@@ -3,13 +3,13 @@
 
 <head>
     @include('includes.head')
-    
 </head>
 <body>
     @include('includes.header')
-    {{-- <div class="container-main-body"> --}}
+    @include('includes.sidebar')
+    <div class="main_body_wrap">
         @yield('content')
-    {{-- </div> --}}
+    </div>
 
     @include('includes.footer')
 </body>
