@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pb=2">
+    <nav class="navbar navbar-expand-lg text-light fixed-top pb=2">
         <div class="container-fluid ">
           <div class="logo me-3"></div>
           <div class="name-title d-flex align-items-end">
@@ -12,16 +12,16 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item mx-3 @yield('home-active')">
-                <a class="nav-link fs-5 pb-0" href="{{ url('/') }}">Home</a>
+                <a class="nav-link text-light fs-5 pb-0" href="{{ url('/') }}">Home</a>
               </li>
-              {{-- <li class="nav-item mx-3 @yield('work-active')">
-                <a class="nav-link fs-5 pb-0" href="{{ url('/#experience') }}">Experience</a>
-              </li> --}}
+              <li class="nav-item mx-3 @yield('work-active')">
+                <a class="nav-link text-light fs-5 pb-0" href="#work-exp">Work Experience</a>
+              </li>
               <li class="nav-item mx-3 @yield('projects-active')">
-                <a class="nav-link fs-5 pb-0" href="{{ url('/my-projects') }}">My Projects</a>
+                <a class="nav-link text-light fs-5 pb-0" href="#my-projects">My Projects</a>
               </li>
               <li class="nav-item mx-3 @yield('contact-active')">
-                <a class="nav-link fs-5 pb-0" href="{{ url('/contact') }}">Contact</a>
+                <a class="nav-link text-light fs-5 pb-0" href="#contact">Contact</a>
               </li>
             </ul>
           </div>

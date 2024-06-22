@@ -3,8 +3,8 @@
 @section('content')
 <main>
     <div class="container mt-2">
-      <h2 class="mb-2"><u>Contact</u></h2>
-        <div class="row main_card_box mt-4">
+      <div class="row main_card_box mt-4">
+          <h2 class="mb-2"><u>Contact</u></h2>
             <div class="col-12 col-md-6 mt-1 row">
               <div class="col-12 mb-3">
                 <h5 class="mb-0"><strong>E-mail</strong></h5>
