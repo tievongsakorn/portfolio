@@ -10,7 +10,8 @@
         </div>
         <div class="col-12 col-md-auto d-flex align-items-center justify-content-end justify-content-center justify-content-md-start">
             <div class="copy_right p-2 ">
-                © 2024 By Vongsakorn Ketsuritong
+                © 2024 By Vongsakorn Ketsuritong <br>
+                Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
             </div>
         </div>
     </div>

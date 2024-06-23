@@ -14,5 +14,7 @@
     {{-- <script src="{{ asset('js/jquery-3.7.1.js') }}"></script> --}}
     {{-- <script src="//cdn.ckeditor.com/4.16.2/full/ckeditor.js"></script> --}}
     {{-- <script src="https://cdn.ckeditor.com/ckeditor5/29.1.0/decoupled-document/ckeditor.js"></script> --}}
-    
+    <meta name="description" content="This is the portfolio website of Vongsakorn Ketsuriyong, a Web Developer. Explore my projects, skills, and experience.">
+    <meta name="keywords" content="portfolio, Vongskorn Ketsuriyong, html php javascript jquery mysql laravel bootstrap, web development, design, Nonthaburi Thailand">
+    <meta name="author" content="Vongsakorn Ketsuriyong">
     <title>Vongsakorn</title>
