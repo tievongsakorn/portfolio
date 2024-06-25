@@ -307,23 +307,30 @@ footer p {
 .resume-dropdown {
     animation: dropdown-ani 2000ms infinite ease; /* Add slide-down animation */
     transition: all 100ms ease;
+
   }
   
   @keyframes dropdown-ani {
     0% {
         -webkit-transform: rotate(4deg);
         transform: rotate(4deg);
-        border-bottom: none;
+        border-bottom: 1px solid #ffcc00;
+        text-shadow: #ffcc00  0px 0px 15px;
+
       }
       50% {
         -webkit-transform: rotate(-4deg);
         transform: rotate(-4deg);
-        border-bottom: 1px solid #ffcc00;
+        border-bottom: none;
+        box-shadow: none;
+        text-shadow: none;
+
       }
       to {
-        -webkit-transform: rotate(2deg);
-        transform: rotate(2deg);
-        border-bottom: none;
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+        border-bottom: 1px solid #ffcc00;
+        text-shadow: #ffcc00  0px 0px 15px;
 
       }
 }
