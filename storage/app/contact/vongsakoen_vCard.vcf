@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Vongsakorn Ketsuriyong
+N:Ketsuriyong;Vongsakorn;;;
+NICKNAME:Tie (ไทค์)
+EMAIL;TYPE=INTERNET;TYPE=HOME:vongsakorntie@gmail.com
+item1.TEL:088 575 8986
+item1.X-ABLabel:
+item2.ADR:;;;;นนทบุรี;;TH;นนทบุรี\nTH
+item2.X-ABLabel:
+item3.TITLE:Web Developer
+item3.X-ABLabel:
+BDAY:--0329
+PHOTO:https://lh3.googleusercontent.com/contacts/ADUEL1z54RVeUAavHYNnA8PGzb
+ W8q4grjXwLWdDJhT-8r7DXOl2p9knz
+CATEGORIES:myContacts
+END:VCARD
