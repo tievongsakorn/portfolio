@@ -28,9 +28,9 @@
                 Resume
               </a>
               <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="{{ asset('/portfolio_file/Vongsakorn_Resume.pdf') }}">dowload as pdf</a></li>
+                <li><a class="dropdown-item" target="_blank" href="{{ asset('/portfolio_file/Vongsakorn_Resume.pdf') }}">dowload as pdf</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="{{ asset('/portfolio_file/Vongsakorn_Resume.png') }}" download="Vongsakorn_Resume.png">dowload as png</a></li>
+                <li><a class="dropdown-item" target="_blank" href="{{ asset('/portfolio_file/Vongsakorn_Resume.png') }}" download="Vongsakorn_Resume.png">dowload as png</a></li>
               </ul>
             </li>
           </ul>
