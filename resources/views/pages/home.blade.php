@@ -340,8 +340,9 @@
                     <div class="row">
                       <div class="col-12 col-md-6">
                           <h5 class="mb-0 honk_color_font"><strong>Vcard</strong></h5>
-                          <small class="pb-3">(Scan to get my contact immediately on your phone.)</small>
-                          <img class="vcard_img mt-3" src="{{ asset('portfolio_file/Vongsakorn_vcard.png') }}" width="200px" class="shadow mt-5">
+                          <small class="pb-3">( Scan to get my contact immediately on your phone. )</small> <br>
+                          <small class="pb-3">( or click <a href="https://vongsakorntie.com/vcard" target="_blank">here</a> to download )</small> <br>
+                          <img class="vcard_img mt-3" src="{{ asset('images/qr_vCard.png') }}" width="200px" class="shadow mt-5">
                             <h5 class="mb-0 mt-3 honk_color_font"><strong>Line</strong></h5>
                             <a href="https://line.me/ti/p/lGB_TeFWET" class="text-decoration-none text-light fs-6"><u>vongsakorn4128</u></a><br>
                             <img src="{{ asset('images/projects/line-qr.jpg') }}" width="200px" class="shadow mt-3">
