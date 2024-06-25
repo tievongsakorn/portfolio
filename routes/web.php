@@ -17,4 +17,7 @@ Route::get('/my-projects', [AppController::class, 'myProjects']);
 Route::get('/about', [AppController::class, 'about']);
 
 Route::get('/contact', [AppController::class, 'contact']);
+Route::get('/vcard', function () {
+    return Storage::download('contact/vongsakoen_vCard.vcf');
+});
 
