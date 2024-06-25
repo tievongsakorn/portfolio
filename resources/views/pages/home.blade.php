@@ -352,10 +352,10 @@
                           <h5 class="mb-0 honk_color_font"><strong>E-mail</strong></h5>
                           <a href="mailto:vongsakorntie@gmail.com" class="text-decoration-none text-light fs-6"><u>vongsakorntie@gmail.com</u></a>
                         </div>
-                        <div class="col-12  mb-3">
+                        {{-- <div class="col-12  mb-3">
                           <h5 class="mb-0 honk_color_font"><strong>Phone</strong></h5>
                           <a href="tel:+66885758986" class="text-decoration-none text-light fs-6"><u>+66885758986</u></a>    
-                        </div>
+                        </div> --}}
                         <div class="col-12  mb-3">
                           <h5 class="mb-0 honk_color_font"><strong>GITHUB</strong></h5>
                           <a href="https://github.com/tievongsakorn" class="text-decoration-none text-light fs-6"><u>github.com/tievongsakorn</u></a><br>
